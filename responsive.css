@@ -1,0 +1,74 @@
+@media screen and (max-width : 1200px) {
+
+}
+
+@media screen and (max-width : 768px) {
+
+	.inputForm , .textForm {
+		width: 	80%;
+	}
+}
+
+@media screen and (max-width : 576px) {
+
+
+	.btn-hero.hero {
+		margin-bottom : 75px;
+		width: 	80%;
+	}
+	#hero.row {
+		padding-bottom:  0px;
+
+	}
+	#hero h1 {
+		font-size: 22px;
+	}
+
+	#hero p {
+		font-size: 12px;
+	}
+	#aboutMe h1 {
+		font-size: 	22px;
+	}
+	#skill p {
+		font-size: 15px;
+	}
+
+	#skill h1 {
+		font-size: 	22px;
+	}
+
+	#sertifikat h1 {
+		font-size: 	22px;
+	}
+
+	#port h1 {
+		font-size: 	22px;
+	}
+
+	#contactForm h1 {
+		font-size: 	22px;
+	}
+
+	#contactForm p {
+		font-size: 	15px;
+	}
+
+	#footer p {
+		font-size: 12px;
+	}
+
+	.copyright {
+		font-size: 	9px;
+	}
+
+	#aboutMe p {
+		font-size: 	15px;
+		text-align: justify;
+	}
+
+}
+
+@media screen and (max-width : 350px) {
+	
+}

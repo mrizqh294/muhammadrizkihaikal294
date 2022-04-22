@@ -1,0 +1,163 @@
+:root {
+	--mainColor : #252734;
+	--secondColor : #333646;
+	--acsennColor : #20c997;
+}
+
+body {
+	font-family: 'Poppins', sans-serif;
+	/*background: linear-gradient( 90deg,#d6dadd,#ededed,#f7f7f7,#ededed,#d6dadd);*/
+	background-color: var(--mainColor);
+	color: white;
+}
+
+* {
+    z-index: 2;
+}
+
+a {
+	text-decoration: none;
+	color: 	white;
+}
+
+li {
+	list-style: none;
+}
+
+i:hover {
+	color: 	var(--acsennColor);
+	transition: 0.3s;
+}
+
+button a {
+	color: white !important;
+	display: inline-block;
+}
+
+
+
+/*ini style navbar*/
+.navbar {
+	z-index: 3;
+}
+.bg-navbar {
+	background-color: var(--mainColor) !important;
+}
+
+.navbar-brand {
+	font-weight: 700;
+}
+
+.nav-link.cv {
+	color: var(--acsennColor) !important;
+	opacity: 1 ;
+	font-weight: 700;
+}
+
+.cv:hover {
+	background-color: var(--secondColor);
+	transition: 0.7s;
+	opacity: 0.8;
+}
+
+.nav-link {
+	color: white !important;
+}
+
+.nav-link:hover {
+	color: var(--acsennColor) !important;
+	cursor: pointer;
+	transition: 0.5s;
+}
+
+.btn-navbar {
+	border : 1px solid white;
+	display: inline-block;
+	padding: 3px;
+}
+
+/*akhir navbar*/
+
+/*inistyle hero*/
+
+#hero {
+	height: 100vh;
+	color: white;
+	padding-top: 75px;
+}
+
+.btn-hero {
+	background-color: var(--acsennColor) !important;
+	color: white;
+	font-weight: 700;
+	opacity: 1;
+	display: inline-block;
+	box-shadow: 0 3px #1a7940;
+}
+
+.btn-hero:hover {
+	opacity: 0.5;
+	transition: 0.7s;
+}
+
+.btn-hero:active {
+  	position: relative;
+  	top: 7px;
+  	box-shadow: none;
+}
+
+
+
+}
+/*akhir hero*/
+
+/*ini about me*/
+#aboutMe {
+	background-color: var(--secondColor) !important;
+}
+
+.aboutMe p {
+	font-size: 20px;
+}
+
+.aboutMe {
+	background-color: var(--secondColor);
+}
+
+/*akhir About me*/
+
+/*skill*/
+
+#skill p {
+	font-size: 20px;
+}
+
+/*serti*/
+.c-serti {
+	background-color: var(--secondColor);
+}
+.bg-serti {
+	background-color: var(--secondColor);
+}
+/*akhir serti*/
+
+/*port*/
+.c-port {
+	background-color: var(--secondColor);
+}
+/*akhir port*/
+
+/*ini form*/
+.cf {
+	background-color: var(--secondColor) !important;
+}
+.inputForm {
+	width: 50%;
+	border-radius: 10px;
+}
+
+.textForm {
+	width :50%;
+	border-radius: 10px;
+}
+/*akhir form*/
